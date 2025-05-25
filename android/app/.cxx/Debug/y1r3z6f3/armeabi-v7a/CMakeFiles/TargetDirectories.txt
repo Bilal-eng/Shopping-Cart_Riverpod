@@ -1,0 +1,2 @@
+/Users/bilal-pc/FlutterProjects/flutter-riverpod-tutorial-starter-project/android/app/.cxx/Debug/y1r3z6f3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/bilal-pc/FlutterProjects/flutter-riverpod-tutorial-starter-project/android/app/.cxx/Debug/y1r3z6f3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
