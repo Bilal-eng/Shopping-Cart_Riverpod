@@ -44,7 +44,7 @@ const List<Product> allProducts = [
       image: 'assets/products/guitar.png'),
 ];
 
-final productProviders = Provider((ref) => allProducts);
+final productsProviders = Provider((ref) => allProducts);
 
 final reducedProductsProvider =
     Provider((ref) => allProducts.where((p) => p.price < 50).toList());
