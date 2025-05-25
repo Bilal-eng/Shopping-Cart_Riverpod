@@ -15,16 +15,16 @@ class HomeScreen extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: GridView.builder(
           itemCount: 8,
-          gridDelegate:const SliverGridDelegateWithFixedCrossAxisCount(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             mainAxisSpacing: 20,
             crossAxisSpacing: 20,
             childAspectRatio: 0.9,
           ),
-          itemBuilder:(context, index) {
+          itemBuilder: (context, index) {
             return Container(
               padding: const EdgeInsets.all(20),
-              color: Colors.blueGrey.withOpacity(0.05),
+              color: Colors.blueGrey.withValues(alpha: 0.05),
             );
           },
         ),
